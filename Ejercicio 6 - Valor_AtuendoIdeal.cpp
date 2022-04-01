@@ -48,8 +48,6 @@ int main() {
 		prenda=traje/6;
 		acum=acum+prenda;
 	} 
-	cout<<endl<<prenda;
-	cout<<endl<<acum;
 	
 	cout<<endl<<"Llevara traje?"<<endl<<"1.Si"<<endl<<"2.No"<<endl<<"Opcion: ";
 	cin>>opt;
@@ -57,7 +55,6 @@ int main() {
 		prenda=traje;
 		acum=acum+prenda;
 	}
-	cout<<endl<<acum;
 	
 	cout<<endl<<"Llevara cinturon?"<<endl<<"1.Si"<<endl<<"2.No"<<endl<<"Opcion: ";
 	cin>>opt;
@@ -65,7 +62,6 @@ int main() {
 		prenda=traje/5;
 		acum=acum+prenda;
 	}
-	cout<<endl<<acum;
 	
 	cout<<endl<<"Llevara zapatos?"<<endl<<"1.Si"<<endl<<"2.No"<<endl<<"Opcion: ";
 	cin>>opt;
@@ -73,16 +69,14 @@ int main() {
 		prenda=traje/2;
 		acum=acum+prenda;
 	}
-	cout<<endl<<acum;
-	
+
 	cout<<endl<<"Llevara camisa?"<<endl<<"1.Si"<<endl<<"2.No"<<endl<<"Opcion: ";
 	cin>>opt;
 	if(opt==1){
 		prenda=traje/3;
 		acum=acum+prenda;
 	}
-	cout<<endl<<acum;
-	
+
 	cout<<"El valor total de tu atuendo ideal es: "<<acum;
 	
 	return 0;
